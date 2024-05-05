@@ -45,7 +45,7 @@ function Logo() {
         </svg>
       </Box>
       <Typography
-        variant="h2"
+        variant="h3"
         color={colors.gray[100]}
         fontWeight="bold"
         sx={{ mb: "5px" }}

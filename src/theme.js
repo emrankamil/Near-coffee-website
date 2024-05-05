@@ -146,15 +146,15 @@ export const themeSettings = (mode) => {
       fontSize: 12,
       h1: {
         fontFamily: "Source Sans 3, sans-serif",
-        fontSize: 40,
+        fontSize: 110,
       },
       h2: {
         fontFamily: "Source Sans 3, sans-serif",
-        fontSize: 32,
+        fontSize: 70,
       },
       h3: {
         fontFamily: "Source Sans 3, sans-serif",
-        fontSize: 24,
+        fontSize: 40,
       },
       h4: {
         fontFamily: "Source Sans 3, sans-serif",

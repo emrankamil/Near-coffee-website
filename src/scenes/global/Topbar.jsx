@@ -12,11 +12,14 @@ function Topbar() {
 
   return (
     <Box
+      className="topbar"
+      position="absolute"
       display="flex"
       justifyContent="space-between"
-      p="16px 100px 16px 100px"
+      p="10px 100px 10px 100px"
+      width="100%"
       backgroundColor={colors.primary[500]}
-      opacity="0.85"
+      zIndex="100"
     >
       <Logo />
       <Box display="flex" gap="20px" alignItems="center">
