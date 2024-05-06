@@ -2,19 +2,22 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = [
   {
-    title: "Option 1",
-    subtitle: "Subtitle for Option 1",
-    image: "image1.jpg",
+    title: "Coffee Shop Discovery",
+    subtitle:
+      "The app allows users to browse through a curated list of nearby coffee shops.",
+    image: "../../assets/HomeImg.png",
   },
   {
-    title: "Option 2",
-    subtitle: "Subtitle for Option 2",
-    image: "image2.jpg",
+    title: "Title for Option 2",
+    subtitle:
+      "The app allows users to browse through a curated list of nearby coffee shops.",
+    image: "../../assets/HomeImg.png",
   },
   {
-    title: "Option 3",
-    subtitle: "Subtitle for Option 3",
-    image: "image3.jpg",
+    title: "Title for Option 3",
+    subtitle:
+      "The app allows users to browse through a curated list of nearby coffee shops.",
+    image: "../../assets/HomeImg.png",
   },
 ];
 

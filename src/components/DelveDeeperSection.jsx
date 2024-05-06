@@ -9,15 +9,14 @@ function DelveDeeperSection() {
   return (
     <Box>
         {/* title */}
-      <Box>
+      <Box textAlign='center' p='40px 200px 0 200px' height='100hv'>
         <Box>
           <Typography
-            variant="h1"
+            variant="h2"
             color={colors.gray[500]}
             sx={{
               fontWeight: "700",
               lineHeight: "110px",
-              textAlign: "left",
             }}
           >
             Delve Deeper

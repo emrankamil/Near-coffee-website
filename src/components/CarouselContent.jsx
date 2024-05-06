@@ -5,42 +5,45 @@ const CarouselContent = ({title, subtitle, image, key_val}) => {
   const theme = useTheme()
   const colors = tokens(theme.palette.mode)
   return (
-    <Box display="flex" alignItems="center" px="40px" m="20px" gap={"20px"}>
+    <Box
+      display="flex"
+      alignItems="center"
+      px="40px"
+      gap={"20px"}
+      className="carousel-content"
+    >
       {key_val % 2 === 0 ? (
         <Box>
           <img
             src={image}
             alt="icon"
             style={{
-              width: "400px",
-              height: "650px",
-              top: "50px",
-              gap: "0px",
-              opacity: "0px",
+              width: "330px",
+              height: "550px",
             }}
           />
         </Box>
       ) : null}
-      <Box >
+      <Box>
         <Box>
           <Typography variant="h2" fontWeight={"bold"} color={colors.gray[500]}>
             {title}
           </Typography>
         </Box>
-        <Box >
+        <Box>
           <Typography variant="h4" color={colors.gray[500]}>
             {subtitle}
           </Typography>
         </Box>
       </Box>
       {key_val % 2 !== 0 ? (
-        <Box >
+        <Box>
           <img
             src={image}
             alt="discover"
             style={{
-              width: "400px",
-              height: "650px",
+              width: "330px",
+              height: "550px",
               top: "50px",
               gap: "0px",
               opacity: "0px",
